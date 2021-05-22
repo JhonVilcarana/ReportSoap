@@ -11,6 +11,5 @@ public class Public {
 		// TODO Auto-generated method stub
 		Endpoint.publish("http://localhost:9090/soap/ventas/reporte", new ReportDaoImpl());
 		System.out.println("Ejecutando!");
-		System.out.println("finish");
 	}
 }
